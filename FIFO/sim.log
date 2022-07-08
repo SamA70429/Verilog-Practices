@@ -1,0 +1,11 @@
+Command: ./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jul  8 09:42 2022
+VCD+ Writer I-2014.03 Copyright (c) 1991-2014 by Synopsys Inc.
+$finish called from file "FIFO_tb.v", line 58.
+$finish at simulation time               180000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 180000 ps
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Fri Jul  8 09:42:42 2022
