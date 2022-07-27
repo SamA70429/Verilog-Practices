@@ -1,0 +1,18 @@
+Command: ./simv +ntb_random_seed_automatic -cm line+cond+fsm+branch+tgl -cm_name simv -cm_dir ./simv.vdb +vpdfile+simv.vpd +define+DUMP_VPD -l simv.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03_Full64; Runtime version I-2014.03_Full64;  Jul 27 09:47 2022
+NOTE: automatic random seed used: 3729056357
+*Verdi3* Loading libsscore_vcs201403.so
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_K-2015.09-SP1-1, Linux x86_64/64bit, 01/21/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* : Create FSDB file 'glitch_free_tb.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : End of traversing.
+$finish called from file "../test/glitch_free_tb.v", line 44.
+$finish at simulation time              1010600
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 101060000 ps
+CPU Time:      0.100 seconds;       Data structure size:   0.0Mb
+Wed Jul 27 09:47:48 2022
