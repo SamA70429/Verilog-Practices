@@ -1,0 +1,3 @@
+Command Line: /opt/Synopsys/Verdi2015/platform/LINUXAMD64/bin/Novas -f file_list.f -ssf main_mod_tb.fsdb
+uname(Linux IC 2.6.32-573.el6.x86_64 #1 SMP Wed Jul 1 18:23:37 EDT 2015 x86_64)
+au time 154.162400 2.086682 10.129460 delta 296583168 296583168 total 671719424 671719424

@@ -1,0 +1,68 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_K-2015.09-SP1-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+[Verdi_1]
+workMode = protocolDebug
+[hb]
+postSimFile = /home/IC/Project/VerilogProject/Compare/main_mod_tb.fsdb
+syncTime = 0
+viewport = 0 25 1920 1004 634 512 483 1918
+activeNode = "main_mod_tb"
+activeScope = "main_mod_tb"
+activeFile = "./main_mod_tb.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "main_mod_tb"
+sdfCheckUndef = FALSE
+[hb.sourceTab.1]
+scope = main_mod_tb
+File = /home/IC/Project/VerilogProject/Compare/main_mod_tb.v
+Line = 1
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/IC/Project/VerilogProject/Compare
+design = DebussyLib
+hostCommand = hostCommand -f file_list.f
+[nMemoryManager]
+FsdbFile = /home/IC/Project/VerilogProject/Compare/main_mod_tb.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1920 329 100 65
+SessionFile = /home/IC/Project/VerilogProject/Compare/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

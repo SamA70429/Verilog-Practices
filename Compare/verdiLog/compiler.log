@@ -1,0 +1,12 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09-SP1-1)
+Command arguments:
+    +define+verilog
+    -f file_list.f
+        ./main_mod.v
+        ./com_mod.v
+        ./main_mod_tb.v
+
+Highest level modules:
+main_mod_tb
+
+Total	0 error(s),   0 warning(s)

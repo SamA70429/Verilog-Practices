@@ -1,0 +1,108 @@
+debImport "-f" "file_list.f"
+debLoadSimResult /home/IC/Project/VerilogProject/Compare/main_mod_tb.fsdb
+wvCreateWindow
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+verdiWindowResize -win $_Verdi_1 -2 "25" "1920" "1004"
+srcHBSelect "main_mod_tb.u_main_mod" -win $_nTrace1
+srcHBSelect "main_mod_tb.u_main_mod" -win $_nTrace1
+srcSetScope -win $_nTrace1 "main_mod_tb.u_main_mod" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {3 10 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -win $_nTrace1
+srcSelect -signal "rst_n" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -win $_nTrace1
+srcSelect -signal "rst_n" -win $_nTrace1
+srcSelect -signal "a" -win $_nTrace1
+srcSelect -signal "b" -win $_nTrace1
+srcSelect -signal "c" -win $_nTrace1
+srcSelect -signal "d" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+wvSetCursor -win $_nWave2 23.217197 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 49.190144 -snap {("G1" 5)}
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 153.421862 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 149.128340 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 250.169231 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 149.987045 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 50.091093 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 100.468421 -snap {("G1" 1)}
+srcHBSelect "main_mod_tb" -win $_nTrace1
+srcHBSelect "main_mod_tb" -win $_nTrace1
+srcHBSelect "main_mod_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "main_mod_tb" -delim "."
+wvSetCursor -win $_nWave2 89.019028 -snap {("G1" 3)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+debReload
+wvSetCursor -win $_nWave2 210.096356 -snap {("G2" 0)}
+wvZoomAll -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSetCursor -win $_nWave2 176.805495 -snap {("G1" 3)}
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetCursor -win $_nWave2 49.974263 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 49.974263 -snap {("G1" 3)}
+srcActiveTrace "main_mod_tb.u_main_mod.a\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 0 -TraceValue xxxxxxxx
+nsMsgSwitchTab -tab trace
+wvSetCursor -win $_nWave2 49.974263 -snap {("G1" 3)}
+srcActiveTrace "main_mod_tb.u_main_mod.a\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 0 -TraceValue xxxxxxxx
+wvSetCursor -win $_nWave2 148.544187 -snap {("G1" 3)}
+srcActiveTrace "main_mod_tb.u_main_mod.a\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 90 -TraceValue 00001100
+wvSetCursor -win $_nWave2 148.544187 -snap {("G1" 3)}
+srcActiveTrace "main_mod_tb.u_main_mod.a\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 90 -TraceValue 00001100
+wvSetCursor -win $_nWave2 136.481434 -snap {("G1" 3)}
+srcActiveTrace "main_mod_tb.u_main_mod.a\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 90 -TraceValue 00001100
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetMarker -win $_nWave2 200.000000
+wvSetMarker -win $_nWave2 200.000000
+wvSetMarker -win $_nWave2 200.000000
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSetCursor -win $_nWave2 154.747889 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 149.578138 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 137.515385 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 144.408386 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 146.131637 -snap {("G1" 3)}
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetCursor -win $_nWave2 280.889821 -snap {("G1" 5)}
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSetRadix -win $_nWave2 -format UDec
+wvSetCursor -win $_nWave2 162.330191 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 152.335338 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 239.876460 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 256.764315 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 268.827068 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 271.928918 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 226.779757 -snap {("G1" 6)}
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+debReload
+wvSetCursor -win $_nWave2 311.563678 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 249.871313 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 198.863100 -snap {("G1" 0)}
+wvSetCursor -win $_nWave2 199.897050 -snap {("G1" 0)}
+wvSetCursor -win $_nWave2 231.260208 -snap {("G1" 0)}
+wvZoom -win $_nWave2 219.886755 246.080162
+debExit
